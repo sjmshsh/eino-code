@@ -29,12 +29,16 @@ github.com/cloudwego/base64x v0.1.5 h1:XPciSp1xaq2VCSt6lF0phncD4koWyULpl5bUxbfCy
 github.com/cloudwego/base64x v0.1.5/go.mod h1:0zlkT4Wn5C6NdauXdJRhSKRlJvmclQ1hhJgA0rcu/8w=
 github.com/cloudwego/eino v0.3.52 h1:jYs1qsEobXS5RC0VamtSVKyM4d26O/cCaYW/s5+Da1o=
 github.com/cloudwego/eino v0.3.52/go.mod h1:wUjz990apdsaOraOXdh6CdhVXq8DJsOvLsVlxNTcNfY=
+github.com/cloudwego/eino-ext/components/document/transformer/splitter/markdown v0.0.0-20250718041314-444cfd7822ec h1:2mwoDoTZLCyE8zg+Mzg+bMS+LzfhbbLrYntMzxKWrRo=
+github.com/cloudwego/eino-ext/components/document/transformer/splitter/markdown v0.0.0-20250718041314-444cfd7822ec/go.mod h1:HZNxjGsgkN+1jsXdcKR8TwnE7J3W5C8aqX/hwWyAOoU=
 github.com/cloudwego/eino-ext/components/embedding/ark v0.0.0-20250718041314-444cfd7822ec h1:SatuL59zPkmZsUuBXDwLB9ZmxhTB3pMTH6vzCqRrNZ0=
 github.com/cloudwego/eino-ext/components/embedding/ark v0.0.0-20250718041314-444cfd7822ec/go.mod h1:F1Unulp5vaYNpzny6Q/gRu90yJ++m5/FyNE9C5VxXoE=
 github.com/cloudwego/eino-ext/components/indexer/milvus v0.0.0-20250718041314-444cfd7822ec h1:LBZeki/V+5duCKgtsKj/JDxWo25DPYUeUUm78gZTcbw=
 github.com/cloudwego/eino-ext/components/indexer/milvus v0.0.0-20250718041314-444cfd7822ec/go.mod h1:Hdm2ql0T4+QcZoOVmgH9xovEJaTiQowKq3bc+lAXr50=
 github.com/cloudwego/eino-ext/components/model/ark v0.1.16 h1:D1kDC0kmpVV3XYEY8jFytjv8qbAvq5yn316Bu9pXEyc=
 github.com/cloudwego/eino-ext/components/model/ark v0.1.16/go.mod h1:VZ7Sa1ocNiSZFiNgg1PQXYdnCJAzPy4Dxt/Ctuwlfp8=
+github.com/cloudwego/eino-ext/components/retriever/milvus v0.0.0-20250718041314-444cfd7822ec h1:Zl0GtUzrLejcStVOkfka9WwRmiRGTa+z+ns8xBvvmPk=
+github.com/cloudwego/eino-ext/components/retriever/milvus v0.0.0-20250718041314-444cfd7822ec/go.mod h1:PYh8yoOcuFYVfSZZ4vglaeRgaXrMz5D4uKioDZxEDA0=
 github.com/cloudwego/iasm v0.2.0/go.mod h1:8rXZaNYT2n95jn+zTI1sDr+IgcD2GVs0nlbbQPiEFhY=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/cncf/udpa/go v0.0.0-20201120205902-5459f2c99403/go.mod h1:WmhPx2Nbnhtbo57+VJT5O0JRkEi1Wbu0z5j0R8u5Hbk=
@@ -461,6 +465,8 @@ google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013/go.mod h1:NbSheEEY
 google.golang.org/genproto v0.0.0-20210624195500-8bfb893ecb84/go.mod h1:SzzZ/N+nwJDaO1kznhnlzqS8ocJICar6hYhVyhi++24=
 google.golang.org/genproto v0.0.0-20220503193339-ba3ae3f07e29 h1:DJUvgAPiJWeMBiT+RzBVcJGQN7bAEWS5UEoMshES9xs=
 google.golang.org/genproto v0.0.0-20220503193339-ba3ae3f07e29/go.mod h1:RAyBrSAP7Fh3Nc84ghnVLDPuV51xc9agzmm4Ph6i0Q4=
+google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 h1:KpwkzHKEF7B9Zxg18WzOa7djJ+Ha5DzthMyZYQfEn2A=
+google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1/go.mod h1:nKE/iIaLqn2bQwXBg8f1g2Ylh6r5MN5CmZvuzZCgsCU=
 google.golang.org/grpc v1.12.0/go.mod h1:yo6s7OP7yaDglbqo1J04qKzAhqBH6lvTonzMVmEdcZw=
 google.golang.org/grpc v1.19.0/go.mod h1:mqu4LbDTu4XGKhr4mRzUsmM4RtVoemTSY81AxZiDr8c=
 google.golang.org/grpc v1.23.0/go.mod h1:Y5yQAOtifL1yxbo5wqy6BxZv8vAUGQwXBOALyacEbxg=

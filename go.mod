@@ -7,9 +7,11 @@ require (
 	github.com/bytedance/sonic/loader v0.2.4 // indirect
 	github.com/cloudwego/base64x v0.1.5 // indirect
 	github.com/cloudwego/eino v0.3.52 // indirect
+	github.com/cloudwego/eino-ext/components/document/transformer/splitter/markdown v0.0.0-20250718041314-444cfd7822ec // indirect
 	github.com/cloudwego/eino-ext/components/embedding/ark v0.0.0-20250718041314-444cfd7822ec // indirect
 	github.com/cloudwego/eino-ext/components/indexer/milvus v0.0.0-20250718041314-444cfd7822ec // indirect
 	github.com/cloudwego/eino-ext/components/model/ark v0.1.16 // indirect
+	github.com/cloudwego/eino-ext/components/retriever/milvus v0.0.0-20250718041314-444cfd7822ec // indirect
 	github.com/cockroachdb/errors v1.9.1 // indirect
 	github.com/cockroachdb/logtags v0.0.0-20211118104740-dabe8e521a4f // indirect
 	github.com/cockroachdb/redact v1.1.3 // indirect
@@ -59,7 +61,7 @@ require (
 	golang.org/x/sync v0.15.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
-	google.golang.org/genproto v0.0.0-20220503193339-ba3ae3f07e29 // indirect
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.73.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
