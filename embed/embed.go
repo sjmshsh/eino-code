@@ -4,15 +4,23 @@ import (
 	"context"
 	"fmt"
 	"github.com/cloudwego/eino-ext/components/embedding/ark"
+	"github.com/joho/godotenv"
+	"log"
 	"os"
 	"time"
 )
 
 func EmbedText() {
+	err := godotenv.Load() // 加载环境变量
+	if err != nil {
+		log.Fatal("Error loading .env file") // 处理加载错误
+	}
+
 	ctx := context.Background()
 
-	// 初始化嵌入器
 	timeout := 30 * time.Second
+
+	// 初始化嵌入器
 	embedder, err := ark.NewEmbedder(ctx, &ark.EmbeddingConfig{
 		APIKey:  os.Getenv("ARK_API_KEY"),
 		Model:   os.Getenv("EMBEDDER"),
@@ -23,12 +31,11 @@ func EmbedText() {
 	}
 
 	// 生成文本向量
-	texts := []string{
-		"这是第一段示例文本",
-		"这是第二段示例文本",
+	input := []string{
+		"你好，李鑫阳",
 	}
 
-	embeddings, err := embedder.EmbedStrings(ctx, texts)
+	embeddings, err := embedder.EmbedStrings(ctx, input)
 	if err != nil {
 		panic(err)
 	}
